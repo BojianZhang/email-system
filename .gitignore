@@ -1,0 +1,45 @@
+# 忽略依赖
+node_modules/
+client/node_modules/
+
+# 忽略构建输出
+client/build/
+
+# 忽略环境配置
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略上传文件
+uploads/
+
+# 忽略临时文件
+.tmp/
+.cache/
+
+# 忽略IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略PM2配置
+ecosystem.config.js
+.pm2/
+
+# 忽略测试覆盖率
+coverage/
+
+# 忽略数据库备份
+*.sql
+!database/schema.sql
